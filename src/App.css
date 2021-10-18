@@ -1,0 +1,7 @@
+.my-chk > input:checked + label {
+    text-shadow: 0px 0px 15px #fbff00;
+    color: #f5dd31;
+}
+.my-chk > input:not(:checked) + label {
+    color: #999
+}
